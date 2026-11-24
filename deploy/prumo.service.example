@@ -1,0 +1,21 @@
+# Exemplo de unidade de usuário. NÃO instalada nem habilitada automaticamente.
+# Substitua /CAMINHO/PRUMO pelo checkout construído (recursos locais são servidos dele).
+[Unit]
+Description=PRUMO — orientação e acompanhamento local
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/CAMINHO/PRUMO
+ExecStart=/CAMINHO/PRUMO/build/prumo --data %h/.local/share/prumo --port 8786
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=%h/.local/share/prumo
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,33 @@
+{
+  "compiler": "c++ (GCC) 16.2.1 20261029 (Red Hat 16.2.1-3)",
+  "cmake": "cmake version 4.3.0",
+  "sqlite": "3.51.2",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "compile_commands": [
+    {
+      "directory": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/build",
+      "command": "/usr/bin/c++ -DPRUMO_ROOT=\\\"/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo\\\" -I/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/include -isystem /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/third_party -g -std=c++26 -Wall -Wextra -Wpedantic -o CMakeFiles/prumo.dir/src/http/main.cpp.o -c /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/http/main.cpp",
+      "file": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/http/main.cpp",
+      "output": "CMakeFiles/prumo.dir/src/http/main.cpp.o"
+    },
+    {
+      "directory": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/build",
+      "command": "/usr/bin/c++ -DPRUMO_ROOT=\\\"/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo\\\" -I/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/include -isystem /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/third_party -g -std=c++26 -Wall -Wextra -Wpedantic -o CMakeFiles/prumo.dir/src/storage/store.cpp.o -c /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/storage/store.cpp",
+      "file": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/storage/store.cpp",
+      "output": "CMakeFiles/prumo.dir/src/storage/store.cpp.o"
+    },
+    {
+      "directory": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/build",
+      "command": "/usr/bin/c++ -DPRUMO_ROOT=\\\"/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo\\\" -I/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/include -isystem /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/third_party -g -std=c++26 -Wall -Wextra -Wpedantic -o CMakeFiles/prumo.dir/src/domain/model.cpp.o -c /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/domain/model.cpp",
+      "file": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/domain/model.cpp",
+      "output": "CMakeFiles/prumo.dir/src/domain/model.cpp.o"
+    },
+    {
+      "directory": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/build",
+      "command": "/usr/bin/c++ -DPRUMO_ROOT=\\\"/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo\\\" -I/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/include -isystem /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/third_party -g -std=c++26 -Wall -Wextra -Wpedantic -o CMakeFiles/prumo.dir/src/application/service.cpp.o -c /run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/application/service.cpp",
+      "file": "/run/media/jpereiratrindade/labeco10T/dev/cpp/prumo/src/application/service.cpp",
+      "output": "CMakeFiles/prumo.dir/src/application/service.cpp.o"
+    }
+  ],
+  "source_sha256": "bcb9390652451439a9ef7f636e7a9cb52b9a6941c73adf8adba8f2ec211c87b1  seed/sources/PLANO-INTEGRADO-EXECUCAO-TED-MAPA-COPTIL-2026-001-v0.1.0.md"
+}

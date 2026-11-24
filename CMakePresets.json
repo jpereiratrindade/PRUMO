@@ -1,0 +1,1 @@
+{"version":6,"configurePresets":[{"name":"local","generator":"Unix Makefiles","binaryDir":"${sourceDir}/build","cacheVariables":{"CMAKE_BUILD_TYPE":"Debug","CMAKE_EXPORT_COMPILE_COMMANDS":"ON"}}],"buildPresets":[{"name":"local","configurePreset":"local"}],"testPresets":[{"name":"local","configurePreset":"local","output":{"outputOnFailure":true}}]}

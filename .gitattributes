@@ -1,0 +1,3 @@
+# Preservar bytes das bibliotecas/licenças recebidas, inclusive whitespace original.
+third_party/** -whitespace linguist-vendored
+*.png binary

@@ -1,0 +1,15 @@
+{
+  "health": {
+    "identity": "ator local declarado, sem autenticação",
+    "schema": 1,
+    "status": "ok",
+    "version": "0.1.0"
+  },
+  "entities": 64,
+  "goals": 3,
+  "commitments": 13,
+  "nexo_activities": 21,
+  "unverified_conditions": 5,
+  "acceptances": 0,
+  "proposals": 15
+}

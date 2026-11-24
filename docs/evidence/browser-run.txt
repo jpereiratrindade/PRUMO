@@ -1,0 +1,1 @@
+Navegador: fluxo concluído, reinício recuperado, zero erros JS; capturas em docs/evidence.
